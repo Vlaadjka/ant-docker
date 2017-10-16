@@ -9,8 +9,8 @@ This is an image used strictly for *legacy* compilations.
 Sample docker invokation:
 
 ```sh
-$ docker run --rm -it -v /local-source-dir:/source \
-                      agusmba/ant -version
+$ docker run --rm -it -v /local-source-dir:/source agusmba/ant\
+                      ant -version
 ```
 
 Other similar projects:
